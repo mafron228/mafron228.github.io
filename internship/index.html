@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Захар">
+        <meta name="description" content="Интернет-агентство по продвижению и созданию сайтов">
+        <meta name="keywords" content="продвижение сайтов, создание сайтов, констекстная реклама">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Интернет-агентство ALKK.ru</title>
+    </head>
+    <body>
+        <header>
+            <div class="header-top">
+                <a href=""><p class="header-logo">ALKK.RU</p></a>
+                <nav>
+                    <a href="">АКЦИИ</a>
+                    <p>/</p>
+                    <a href="">О КОМПАНИИ</a>
+                    <p>/</p>
+                    <a href="">КОНТАКТЫ</a>
+                </nav>
+                <div class="header-contacts">
+                    <div class="header-contacts-icons">
+                        <img src="img/whatsapp-icon.png" width="20" height="20">
+                        <img src="img/viber-icon.png" width="20" height="20">
+                    </div>
+                    <a class="header-contacts-num" style="text-decoration: underline 1.5px;" href="">8 (444) 123-17-18</a>
+                </div>
+            </div>
+            <div class="header-bottom">
+                <nav>
+                    <a href="">ПРОДВИЖЕНИЕ САЙТОВ</a>
+                    <a href="">СОЗДАНИЕ САЙТОВ</a>
+                    <a href="">КОНТЕКСТНАЯ РЕКЛАМА</a>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <section id="#wide-picture">
+                <div class="wide-picture-container">
+                    <img src="img/wide-picture-img.png">
+                </div>
+            </section>
+            <section id="promotion">
+                <h1>ПРОДВИЖЕНИЕ САЙТОВ &#128293;</h1>
+                <div class="promotion-container">
+                    <h2>КАЛЬКУЛЯТОР</h2>
+                    <div class="promotion-menu">
+                        <div class="promotion-menu-dropdowns">
+                            <div class="promotion-menu-dropdown">
+                                <span>Регион</span>
+                                <div class="promotion-menu-dropdown-content">
+                                    <p>Регион 1</p>
+                                    <p>Регион 2</p>
+                                    <p>Регион 3</p>
+                                </div>
+                            </div>
+                            <div class="promotion-menu-dropdown">
+                                <span>Поиск. сист.</span>
+                                <div class="promotion-menu-dropdown-content">
+                                    <p>Поиск. сист. 1</p>
+                                    <p>Поиск. сист. 2</p>
+                                    <p>Поиск. сист. 3</p>
+                                </div>
+                            </div>
+                            <div class="promotion-menu-dropdown">
+                                <span>Тематика</span>
+                                <div class="promotion-menu-dropdown-content">
+                                    <p>Тематика 1</p>
+                                    <p>Тематика 2</p>
+                                    <p>Тематика 3</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="promotion-menu-checkbox">
+                            <input type="checkbox">
+                            <p>Сайт продвигается</p>
+                        </div>
+                    </div>
+                    <div class="promotion-range">
+                        <div style="display: flex; justify-content: space-between; align-items: flex-end; width: 100%;">
+                            <p style="font-size: 10px; font-family: 'Gilroy';">Цена</p>
+                            <p style="font-size: 16px; font-family: 'Gilroy';">
+                                <output id="value"></output>
+                                руб./мес.
+                            </p>
+                        </div>
+                        <input id="range" type="range" max="21000" step="100">
+                        <button>Рассчитать</button>
+                    </div>
+                    <h2 style="font-size: 30px; margin: 30px 0 0 0;">ПЛАН ПРОДВИЖЕНИЯ НА 3 МЕСЯЦА</h2>
+                    <div class="promotion-plans">
+                        <div class="promotion-plan">
+                            <h3 >1 МЕС.</h3>
+                            <ul>
+                                <li>Общий аудит сайта</li>
+                                <li>Создание резервной копии сайта</li>
+                                <li>Поиск и устранение дублей сайта</li>
+                                <li>Поиск и устранение битых ссылок</li>
+                                <li>Создадим XML-карту сайта</li>
+                            </ul>
+                        </div>
+                        <div class="promotion-divider"></div>
+                        <div class="promotion-plan">
+                            <h3 >2 МЕС.</h3>
+                            <ul>
+                                <li>Создание резервной копии сайта</li>
+                                <li>Поиск и устранение дублей сайта</li>
+                                <li>Поиск и устранение битых ссылок</li>
+                                <li>Создадим XML-карту сайта</li>
+                            </ul>
+                        </div>
+                        <div class="promotion-divider"></div>
+                        <div class="promotion-plan">
+                            <h3 >3 МЕС.</h3>
+                            <ul>
+                                <li>Поиск и устранение дублей сайта</li>
+                                <li>Поиск и устранение битых ссылок</li>
+                                <li>Создадим XML-карту сайта</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="form">
+                <h1>ФОРМА ЗАЯВКИ</h1>
+                <div style="display: flex; flex-direction: row; gap: 30px;">
+                    <div class="form-input">
+                        <div class="form-input-row">
+                            <input type="text" placeholder="Имя">
+                            <input type="text" placeholder="Имя">
+                        </div>
+                        <div class="form-input-row">
+                            <input type="text" placeholder="Имя">
+                            <input type="text" placeholder="Имя">
+                        </div>
+                    </div>
+                    <div class="form-container">
+                        <div style="display: flex; gap: 5px;">
+                            <input type="checkbox">
+                            <p>Нажимая на кнопку, вы соглашаетесь<br> с нашей политикой обработки</p>
+                        </div>
+                        <button>Оставить заявку</button>
+                    </div>
+                </div>
+            </section>
+            <section id="reviews">
+                <div class="reviews-item">
+                    <div class="reviews-item-icon"></div>
+                    <h3>ЗАГОЛОВОК #1</h3>
+                    <p>Небольшое описание в<br> 2 строки</p>
+                </div>
+                <div class="reviews-item">
+                    <div class="reviews-item-icon"></div>
+                    <h3>ЗАГОЛОВОК #2</h3>
+                    <p>Небольшое описание в<br> 2 строки</p>
+                </div>
+                <div class="reviews-item">
+                    <div class="reviews-item-icon"></div>
+                    <h3>ЗАГОЛОВОК #3</h3>
+                    <p>Небольшое описание в<br> 2 строки</p>
+                </div>
+                <div class="reviews-item">
+                    <div class="reviews-item-icon"></div>
+                    <h3>ЗАГОЛОВОК #4</h3>
+                    <p>Небольшое описание в<br> 2 строки</p>
+                    
+                </div>
+            </section>
+        </main>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3221.1105737130015!2d37.55574499825604!3d55.7582473536784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54bd2368e2c01%3A0xe78eef1cb376bc54!2zMTkwNSDQk9C-0LTQsCDRg9C7Liwg0JzQvtGB0LrQstCwLCDQoNC-0YHRgdC40Y8sIDEyMzEwMA!5e0!3m2!1sru!2sby!4v1685168247514!5m2!1sru!2sby" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <footer>
+            <a href=""><p class="header-logo">ALKK.RU</p></a>
+            <div class="footer-items">
+                <div class="footer-item">
+                    <h3>ПРОДВИЖЕНИЕ САЙТОВ</h3>
+                    <div class="footer-divider"></div>
+                    <ul>
+                        <li>По позициям</li>
+                        <li>По трафику</li>
+                    </ul>
+                </div>
+                <div class="footer-item">
+                    <h3>СОЗДАНИЕ САЙТОВ</h3>
+                    <div class="footer-divider"></div>
+                    <ul>
+                        <li>Визитки</li>
+                        <li>Каталог</li>
+                    </ul>
+                </div>
+                <div class="footer-item">
+                    <h3>КОНТЕКСТНАЯ РЕКЛАМА</h3>
+                    <div class="footer-divider"></div>
+                    <ul>
+                        <li>Яндекс Директ</li>
+                        <li>Google Adwords</li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <button onclick="topFunction()" id="top">ВВЕРХ</button> 
+    </body>
+    <script>
+        const value = document.querySelector("#value")
+        const input = document.querySelector("#range")
+
+        value.textContent = input.value
+        input.addEventListener("input", (event) => {
+        value.textContent = event.target.value
+        })
+    </script>
+    <script>
+
+        let mybutton = document.getElementById("top");
+
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
+        }
+        }
+
+        function topFunction() {
+        document.body.scrollTop = 0; 
+        document.documentElement.scrollTop = 0;
+        } 
+    </script>
+</html>
